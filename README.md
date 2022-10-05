@@ -14,7 +14,7 @@ If you ran into an error please report it in Issues.
 # Manual Installation
 1) Run the game at least once
 
-2) Move the "SaveFile" folder to the save location.
+2) Move the "SaveGames" folder to the save location.
 
 Save location: C:\Users\(your username)\AppData\Local\TJoC_SM\Saved
 
