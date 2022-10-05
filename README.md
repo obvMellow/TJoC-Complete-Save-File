@@ -7,7 +7,7 @@ Game by: Nikson
 Check out original game:https://gamejolt.com/games/tjocsm/139218
 
 # Automatic Installation
-Run the installer.exe file and everything should be fine.
+Run the installer.exe file as administrator and everything should be fine.
 
 If you ran into an error please report it in Issues.
 
