@@ -4,7 +4,7 @@ This is a complete save file for The Joy of Creation.
 
 Game by: Nikson
 
-Check out original game:https://gamejolt.com/games/tjocsm/139218
+Check out original game: https://gamejolt.com/games/tjocsm/139218
 
 # Automatic Installation
 Run the installer.exe file as administrator and everything should be fine.
