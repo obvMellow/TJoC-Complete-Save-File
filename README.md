@@ -2,7 +2,7 @@
 
 This is a complete save file for The Joy of Creation.
 
-Game by: Nikson
+Original game by Nikson
 
 Check out original game: https://gamejolt.com/games/tjocsm/139218
 
