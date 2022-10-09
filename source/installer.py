@@ -16,7 +16,7 @@ listdir = os.listdir(f'C:\\Users\\{username}\\AppData\\Local\\TJoC_SM\\Saved\\Sa
 true_listdir = os.listdir(file_dir)
 if os.path.exists(f'C:\\Users\\{username}\\AppData\\Local\\TJoC_SM\\Saved\\SaveGames'):
     for file in true_listdir:
-        if file in listdir:
+        if file in os.listdir(f'C:\\Users\\{username}\\Appdata\\Local\\TJoC_SM\\Saved\\SaveGames'):
             print(f"Validated {file}.")
         else:
             print(f'Failed to validate {file}, retrying.')
