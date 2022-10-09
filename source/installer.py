@@ -21,8 +21,9 @@ if os.path.exists(f'C:\\Users\\{username}\\AppData\\Local\\TJoC_SM\\Saved\\SaveG
         else:
             print(f'Failed to validate {file}, retrying.')
             shutil.copy(f'{file_dir}\{file}', copy_dir)
-            if not file in listdir:
+            if file in os.listdir(f'C:\\Users\\{username}\\Appdata\\Local\\TJoC_SM\\Saved\\SaveGames'):
+                print(f"Validated {file}.")
+            else:
                 print(f'Couldnt validate {file}, please copy the file manually.')
-            
 
 input("\nPress ENTER to exit.")
