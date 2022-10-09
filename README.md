@@ -16,6 +16,6 @@ If you ran into an error please report it in Issues.
 
 2) Move the "SaveGames" folder to the save location.
 
-Save location: C:\Users\(your username)\AppData\Local\TJoC_SM\Saved
+Save location: C:\Users\\(your username)\AppData\Local\TJoC_SM\Saved
 
 Important Note: Don't forget to backup your save file in case it doesn't work.
