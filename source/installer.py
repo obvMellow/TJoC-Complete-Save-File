@@ -32,8 +32,8 @@ print("\nValidating...\n")
 time.sleep(0.1)
 listdir = os.listdir(f'C:\\Users\\{username}\\AppData\\Local\\TJoC_SM\\Saved\\SaveGames')
 true_listdir = os.listdir(file_dir)
+result = []
 for file in true_listdir:
-    result = []
     time.sleep(0.01)
     if file in os.listdir(f'C:\\Users\\{username}\\Appdata\\Local\\TJoC_SM\\Saved\\SaveGames'):
         print(f"Validated {file}.")
