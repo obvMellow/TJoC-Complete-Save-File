@@ -23,6 +23,8 @@ namespace Installer
             
             installer:
                 Installer();
+            Console.WriteLine("\nPress any key to exit.");
+            Console.ReadKey();
         }
         static void Installer()
         {
@@ -43,8 +45,6 @@ namespace Installer
 
             }
             Console.WriteLine("\nAll files were copied successfully!");
-            Console.WriteLine("\nPress any key to exit.");
-            Console.ReadKey();
         }
     }
 }
