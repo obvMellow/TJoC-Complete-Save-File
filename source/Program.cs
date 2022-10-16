@@ -43,6 +43,8 @@ namespace Installer
 
             }
             Console.WriteLine("\nAll files were copied successfully!");
+            Console.WriteLine("\nPress any key to exit.");
+            Console.ReadKey();
         }
     }
 }
