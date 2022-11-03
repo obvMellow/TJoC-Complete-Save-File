@@ -6,12 +6,12 @@ Original game by Nikson
 
 Check out the original game: https://gamejolt.com/games/tjocsm/139218
 
-# Automatic Installation
+## Automatic Installation
 Run the installer.exe file as administrator and everything should be fine.
 
-If you ran into an error please report it in Issues.
+If you ran into an error please report it in [Issues](https://github.com/obvMellow/TJoC-Complete-Save-File/issues).
 
-# Manual Installation
+## Manual Installation
 1) Run the game at least once
 
 2) Move the "SaveGames" folder to the save location.
