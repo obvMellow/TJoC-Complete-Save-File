@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using Figgle;
 
 namespace Installer
 {
@@ -7,25 +8,31 @@ namespace Installer
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(FiggleFonts.Standard.Render("TJoC Complete Save File"));
             Console.WriteLine("This proccess will delete your current progress!");
             start:
-                Console.Write("Do you want to continue? (y/n): ");
-                string answer = Console.ReadLine();
+            Console.Write("Do you want to continue? (y/n): ");
+            string? answer = Console.ReadLine();
 
-                switch (answer)
-                {
-                    case "y": goto installer;
+            switch (answer)
+            {
+                case "y":
+                    goto installer;
 
-                    case "n": Environment.Exit(0); break;
+                case "n":
+                    Environment.Exit(0);
+                    break;
 
-                    default: goto start;
-                }
-            
+                default:
+                    goto start;
+            }
+
             installer:
-                Installer();
+            Installer();
             Console.WriteLine("\nPress any key to exit.");
             Console.ReadKey();
         }
+
         static void Installer()
         {
             string username = Environment.UserName;
@@ -42,7 +49,6 @@ namespace Installer
                 destFile = sourceFiles[i].Substring(sourceDir.Length + 1);
                 File.Copy(sourceFiles[i], destDir + destFile, true);
                 Console.WriteLine($"Copied {destFile}.");
-
             }
             Console.WriteLine("\nAll files were copied successfully!");
         }
