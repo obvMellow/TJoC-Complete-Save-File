@@ -1,5 +1,7 @@
 # TJoC-Complete-Save-File
 
+**Disclaimer:** This repository is deprecated and won't receive any updates in the future.
+
 This is a complete save file for The Joy of Creation.
 
 Original game by Nikson
